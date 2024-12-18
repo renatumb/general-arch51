@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/general-arch51",
+        "create path (nt:unstructured) /content/dam/general-arch51/jcr:content",
+        "set properties on /content/dam/general-arch51/jcr:content\n  set cq:conf{String} to /conf/general-arch51\n  set jcr:title{String} to \"general-arch51\"\nend"
+    ]
+}

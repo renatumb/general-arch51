@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/general-arch51" mode="merge"/>
+    <filter root="/content/general-arch51" mode="merge"/>
+    <filter root="/content/dam/general-arch51" mode="merge">
+        <exclude pattern="/content/dam/general-arch51(/.*)?"/>
+        <include pattern="/content/dam/general-arch51/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/general-arch51/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/general-arch51" mode="merge"/>
+</workspaceFilter>
